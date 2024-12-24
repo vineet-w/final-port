@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+   
 } from "../assets";
 
 export const navLinks = [
@@ -50,11 +51,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI ML Enthusiast",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "IoT Developer",
     icon: creator,
   },
 ];
@@ -115,58 +116,49 @@ const technologies = [
 ];
 
 const experiences = [
+  
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Intern",
+    company_name: "Edunet Foundation (AICTE & IBM)",
+    tech_stack: [ "Python", "TensorFlow", "Flask", "Numpy", ],
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: "#000",
+    date: "June 2023",
+    
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+        "Gained expertise in data cleaning, preprocessing, and visualization.",
+        "Analyzed and visualized Indian startup funding trends." ],
+         
+},
+{
+  title: "Operations Team Member",
+  company_name: "EBSB, VESIT",
+  date: "July 2023 - Present",
+  icon: shopify,
+  points: [
+      "Coordinated with members to organize events attended by 150+ students on topics like 'Effective Technology Intervention for School Education.'"
+  ],
+},
+{
+  title: "Junior Event Organizer",
+  company_name: "PRAXIS Robotics Team, VESIT",
+  date: "March 2024",
+  icon: meta,
+  points: [
+      "Organized a dynamic space-themed event featuring innovative competition elements such as tokens, leaderboards, and resource-efficient Track0mania tracks."
+  ],
+},
+{
+  title: "Sports Incharge",
+  company_name: "VESIT",
+  icon: starbucks,
+  date: "November 2022 - June 2023",
+  points: [
+      "Successfully managed 45+ students and led the team to secure 2nd place in the Annual Sports Championship."
+  ],
+}
+
+
 ];
 
 const testimonials = [
@@ -198,12 +190,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "F.R.A.S",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Face Recognition Based Attendance System (F.R.A.S) is a real-time application designed to streamline attendance tracking using advanced deep learning techniques. The system integrates face detection, embedding generation, and database storage to ensure efficient and secure identification. Built with React, Firebase, TensorFlow, Flask, and Python, it delivers a seamless experience, automating attendance processes with high accuracy and reducing manual intervention.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
@@ -216,49 +208,49 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vineet-w",
   },
   {
-    name: "Job IT",
+    name: "Agri.ai",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Agri.ai mobile app is designed to empower farmers with AI-driven insights and tools for better crop management. It provides accurate yield predictions, real-time weather updates, soil health monitoring, pest and disease detection, and smart irrigation advice. With features like market price trends, resource management, and offline functionality, Agri.AI helps farmers optimize their productivity, reduce costs, and improve sustainability, all through an intuitive and easy-to-use platform.",
     tags: [
       {
-        name: "react",
+        name: "expo",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node.js",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vineet-w",
   },
   {
-    name: "Trip Guide",
+    name: "InTime",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A mobile app and cloud platform that helps users in emergencies. The system uses an ESP32 device to send SOS signals, location, and real-time updates to emergency contacts, the police, and ambulances. It integrates GPS tracking and AI assistance for faster and more effective help.",
     tags: [
       {
-        name: "nextjs",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ESP32",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vineet-w",
   },
 ];
 
