@@ -18,8 +18,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
     "react-tilt": "^1.0.2",
-    "react-vertical-timeline-component": "^4.0.1",
-    "three": "^0.153.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.171.0",
+    "three-mesh-bvh": "^0.8.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

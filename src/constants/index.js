@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  zymo,
    
 } from "../assets";
 
@@ -116,6 +117,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Intern",
+    company_name: "Zymo",
+    icon: zymo,
+    date: "January 2025 - Present",
+    points: [
+        "Collaborated with the design and app development team to improve the user experience and functionality of zymo's website.",
+        "Maintained, optimized, and updated the website for performance and SEO.",
+        "Implemented new features and resolve bugs to enhance website performance.",
+        "Conducted regular website testing and debugging."
+    ],
+},
+
   
   {
     title: "Intern",
@@ -123,7 +137,7 @@ const experiences = [
     tech_stack: [ "Python", "TensorFlow", "Flask", "Numpy", ],
     icon: tesla,
     iconBg: "#000",
-    date: "June 2023",
+    date: "June 2024 - July 2024",
     
     points: [
         "Gained expertise in data cleaning, preprocessing, and visualization.",
@@ -133,7 +147,7 @@ const experiences = [
 {
   title: "Operations Team Member",
   company_name: "EBSB, VESIT",
-  date: "July 2023 - Present",
+  date: "July 2023 - January 2025",
   icon: shopify,
   points: [
       "Coordinated with members to organize events attended by 150+ students on topics like 'Effective Technology Intervention for School Education.'"
@@ -148,15 +162,7 @@ const experiences = [
       "Organized a dynamic space-themed event featuring innovative competition elements such as tokens, leaderboards, and resource-efficient Track0mania tracks."
   ],
 },
-{
-  title: "Sports Incharge",
-  company_name: "VESIT",
-  icon: starbucks,
-  date: "November 2022 - June 2023",
-  points: [
-      "Successfully managed 45+ students and led the team to secure 2nd place in the Annual Sports Championship."
-  ],
-}
+ 
 
 
 ];

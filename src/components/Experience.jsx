@@ -66,6 +66,10 @@ const Experience = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience.
         </h2>
+        <p className={`${styles.sectionSubText} text-center`}>
+        Experience as of {new Date().toLocaleString('en-US', {day:'numeric', month: 'long', year: 'numeric' })}.
+      </p>
+
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
