@@ -121,13 +121,12 @@ const experiences = [
     title: "Intern",
     company_name: "Zymo",
     icon: zymo,
-    date: "January 2025 - Present",
+    date: "January 2025 - April 2025",
     points: [
-        "Collaborated with the design and app development team to improve the user experience and functionality of zymo's website.",
+        "Developed Website for Car Service Providers at Zymo with over 26%+ increase in user traffic, elevating user experience with an enhanced UI in an increase in customer satisfaction, while efficiently utilizing Firebase for data management ",
+        "Led and effectively managed a dynamic team of 6 members, ensuring collaboration, productivity, and timely delivery of project goals while fostering a positive and results-driven work environment",
         "Maintained, optimized, and updated the website for performance and SEO.",
-        "Implemented new features and resolve bugs to enhance website performance.",
-        "Conducted regular website testing and debugging."
-    ],
+       ],
 },
 
   
