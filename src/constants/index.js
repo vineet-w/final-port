@@ -24,7 +24,8 @@ import {
   tripguide,
   threejs,
   zymo,
-   
+  tinkerers,
+  firebase
 } from "../assets";
 
 export const navLinks = [
@@ -82,10 +83,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -114,20 +112,33 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+    {
+    name: "firebase",
+    icon: firebase,
+  },
 ];
 
 const experiences = [
+    {
+    title: "Vice President",
+    company_name: "Tinkerer's ECS",
+    icon: tinkerers,
+    date: "June 2025 - Present",
+    points: [
+       " Managing Council and Leading a development team of a web platform for council, integrated Firebase for secure tracking and real time transactions of components. ",
+       "Coordinating with team leads to plan and execute workshops, hackathons, and technical events impacting 70+ students. "
+       ],
+},
   {
     title: "Intern",
     company_name: "Zymo",
     icon: zymo,
-    date: "January 2025 - Present",
+    date: "January 2025 - April 2025",
     points: [
-        "Collaborated with the design and app development team to improve the user experience and functionality of zymo's website.",
+        "Developed Website for Car Service Providers at Zymo with over 26%+ increase in user traffic, elevating user experience with an enhanced UI in an increase in customer satisfaction, while efficiently utilizing Firebase for data management ",
+        "Led and effectively managed a dynamic team of 6 members, ensuring collaboration, productivity, and timely delivery of project goals while fostering a positive and results-driven work environment",
         "Maintained, optimized, and updated the website for performance and SEO.",
-        "Implemented new features and resolve bugs to enhance website performance.",
-        "Conducted regular website testing and debugging."
-    ],
+       ],
 },
 
   
@@ -205,11 +216,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenCV",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],

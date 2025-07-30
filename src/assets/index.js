@@ -19,7 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/sql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,7 +29,8 @@ import zymo from "./company/zymo.jpg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.jpeg";
 import tripguide from "./tripguide.png";
-
+import tinkerers from './tinkerers.png';
+import firebase from "./tech/firebase.png"
 export {
   logo,
   backend,
@@ -59,5 +60,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  zymo
+  zymo,
+  tinkerers,
+  firebase
 };

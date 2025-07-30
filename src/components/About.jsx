@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-     I'm a skilled software developer with expertise in MERN stack, IoT systems, and AI-driven solutions. I thrive on creating efficient, scalable, and user-friendly applications that address real-world challenges. Let’s collaborate to turn your vision into reality!
+     I'm a skilled software developer with expertise in FullStack Development, IoT systems, and AI-driven solutions. I thrive on creating efficient, scalable, and user-friendly applications that address real-world challenges. Let’s collaborate to turn your vision into reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
